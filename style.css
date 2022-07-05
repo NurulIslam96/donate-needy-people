@@ -1,0 +1,96 @@
+
+body{
+    font-family: 'Arvo', serif;
+    margin: 0;
+}
+
+/* Header Section */
+
+.first-heading{
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.help-heading{
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    padding-top: 175px;   
+}
+
+#help-quote{
+    padding: 0 500px;
+    font-size: 20px;
+}
+
+.button-one{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 150px;
+}
+
+.donate-button{
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 3px 15px gray;
+    padding: 18px 35px;
+    background-color: red;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/* Donation Section */
+
+.donation-heading{
+    padding-top: 55px;
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 90px;
+}
+
+#donation-quote{
+    font-size: 18px;
+    color: darkslategray;
+}
+
+.flex-container{ 
+    display: flex;
+    padding-left: 585px;
+    margin-bottom: 50px;
+}
+
+.flex-box{
+    width: 130px;
+    height: 100px;
+    background: rgba(206, 190, 190, 0.096);
+    font-size: 25px;
+    font-weight: 700;
+    color: gray;
+    border-radius: 5px;
+    margin: 15px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.select-amount{
+    color: red;
+    border: 2px solid red;
+}
+
+.amount-container{
+    text-align: center;
+    margin-bottom:50px;
+}
+
+button{
+    border: none;
+}
+
+input{
+    border: 0;
+}
+
+input:focus{
+    outline: 0;
+}
