@@ -38,6 +38,7 @@ body{
     background-color: red;
     border-radius: 5px;
     font-size: 20px;
+    border: none;
 }
 
 /* Donation Section */
@@ -86,26 +87,17 @@ h2{
     margin-bottom:50px;
 }
 
-button{
-    border: none;
-}
-
 input{
-    border: 0;
-    width: 780px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 400px;
+    border-color: rgba(255, 0, 0, 0.212);
+    border-width: 1px ;
+    padding-left: 270px;
+    padding-bottom: 10px;
 }
 
-.divider{
-    width: 780px;
-    height: 1px;
-    background-color: rgba(214, 177, 177, 0.486);
-    display: block;
-    margin: 0 29.8% 2%;
-}
-  
-.amount-container input{
-    padding-left: 650px;
-}
 
 /* Donation-plan-Section */
 
