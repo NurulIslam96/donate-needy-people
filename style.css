@@ -149,35 +149,39 @@ input{
 
 .bonus-flexible{
     display: flex;
-    margin-bottom: 50px;
+    border-radius: 2px;
+    margin-bottom: 100px;
 }
 
-#join-quote{
+.join-quote{
     background-image: url(images/volunteer.png);
-    width: 800px;
-    height: 600px;
-    margin: 0;
-    text-align: center; 
-    font-size: 60px;
-    color: ghostwhite;
-    line-height: 575px;
-    text-shadow: 0 20px 30px black;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    line-height: 400px;
+    color: white;
+    text-shadow: 0 2px 15px black;
+    font-size: 50px;
+}
+
+
+
+.register-head{
+    background-image: url(images/cta-bg.png);
+    background-size: cover;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding-top: 100px;
+    padding-left: 60px;
+    padding-right: 150px;
 }
 
 #register-par{
     padding-bottom: 50px;
+    text-align: justify;
+    padding-right: 70px;
 }
-
-#register-head{
-    background-image: url(images/cta-bg.png);
-    background-color: black;
-    color: white;
-    text-align: left;
-    padding-left: 100px;
-    padding-top: 100px;
-    padding-right: 500px;
-}
-
 
 /* Footer Section */
 
