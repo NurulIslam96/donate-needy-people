@@ -90,17 +90,9 @@ button{
     border: none;
 }
 
-.placeholder{
-    font-size: 5px
-}
-
 input{
     border: 0;
     width: 780px;
-}
-
-input:focus{
-    outline: 0;
 }
 
 .divider{
@@ -115,7 +107,7 @@ input:focus{
     padding-left: 650px;
 }
 
-/* Donation plan */
+/* Donation-plan-Section */
 
 .flex-box-plan{
     width: 352px;
@@ -159,6 +151,8 @@ input:focus{
 .icon-align{
     padding: 50px 20px 0 20px;
 }
+
+/* Footer Section */
 
 .footer-adjust{
     text-align: center;
