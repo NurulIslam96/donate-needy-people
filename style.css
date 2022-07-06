@@ -145,6 +145,40 @@ input{
     padding: 50px 20px 0 20px;
 }
 
+/* Bonus Section */
+
+.bonus-flexible{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+#join-quote{
+    background-image: url(images/volunteer.png);
+    width: 800px;
+    height: 600px;
+    margin: 0;
+    text-align: center; 
+    font-size: 60px;
+    color: ghostwhite;
+    line-height: 575px;
+    text-shadow: 0 20px 30px black;
+}
+
+#register-par{
+    padding-bottom: 50px;
+}
+
+#register-head{
+    background-image: url(images/cta-bg.png);
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-right: 500px;
+}
+
+
 /* Footer Section */
 
 .footer-adjust{
@@ -153,18 +187,18 @@ input{
     margin: 0;
     font-weight: 400;
     font-size: 30px;
-    padding: 40px;
-    
+    padding: 40px;  
 }
 
-.footer-head{
+#footer-head{
     color: red;
     font-family: 'Lobster', cursive;
 }
 
-.footer-quote{
+#footer-quote{
     color: white;
     font-size: small;
 }
 
-/* Bonus Section */
+
+
