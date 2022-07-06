@@ -7,7 +7,7 @@ body{
 /* Header Section */
 
 .first-heading{
-    background-image: url(images/donation13.jpg);
+    background-image: url(images/image.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -20,8 +20,8 @@ body{
 }
 
 #help-quote{
-    padding: 0 500px;
     font-size: 20px;
+    color: white;
 }
 
 .button-one{
@@ -42,21 +42,24 @@ body{
 
 /* Donation Section */
 
+h2{
+    font-size: 45px;
+}
 .donation-heading{
     padding-top: 55px;
     text-align: center;
-    font-size: 38px;
-    margin-bottom: 90px;
+    margin-bottom: 80px;
 }
 
 #donation-quote{
     font-size: 18px;
     color: darkslategray;
+    padding: 0 400px; 
 }
 
 .flex-container{ 
     display: flex;
-    padding-left: 585px;
+    justify-content: center;
     margin-bottom: 50px;
 }
 
@@ -87,10 +90,92 @@ button{
     border: none;
 }
 
+.placeholder{
+    font-size: 5px
+}
+
 input{
     border: 0;
+    width: 780px;
 }
 
 input:focus{
     outline: 0;
+}
+
+.divider{
+    width: 780px;
+    height: 1px;
+    background-color: rgba(214, 177, 177, 0.486);
+    display: block;
+    margin: 0 29.8% 2%;
+}
+  
+.amount-container input{
+    padding-left: 650px;
+}
+
+/* Donation plan */
+
+.flex-box-plan{
+    width: 352px;
+    height: 360px;
+    margin: 50px;
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.donation-head{
+    margin-top: 30px;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+.background-food{
+    background-color: rgb(79, 157, 166, 0.1);
+    text-align: justify;   
+}
+
+.background-family{
+    background-color: rgb(255, 89, 89, 0.1);
+    text-align: justify; 
+}
+
+.background-education{
+    background-color: bisque;
+    text-align: justify; 
+}
+
+.p-text-align{
+    padding: 0 20px;
+    text-align: justify;
+    color: rgba(47, 79, 79, 0.651);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.icon-align{
+    padding: 50px 20px 0 20px;
+}
+
+.footer-adjust{
+    text-align: center;
+    background: #0B0D17;
+    margin: 0;
+    font-weight: 400;
+    font-size: 30px;
+    padding: 40px;
+    
+}
+
+.footer-head{
+    color: red;
+    font-family: 'Lobster', cursive;
+}
+
+.footer-quote{
+    color: white;
+    font-size: small;
 }

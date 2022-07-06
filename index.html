@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Helping Hand</title>
 </head>
@@ -23,7 +26,7 @@
     </section>
     <section>
         <div class="donation-heading">
-            <h1>Donate Today</h1>
+            <h2>Donate Today</h2>
             <p id="donation-quote">If you want your checkbook to follow your heart, make a donation to those who are in need of help. You can donate any amount you link according to your choices.</p>
         </div>
         <div class="flex-container">
@@ -34,9 +37,38 @@
             <div class="flex-box">5000tk</div>
         </div>
         <form class="amount-container" action="https://docs.google.com/document/d/1HYOv4WCEm6y847hLuR3r2XSBPCzHLJPL2uNaV3DnAHo/edit?usp=sharing" target="_blank">
-            <input type="number" name="amount" id="donated-amount" placeholder="Other amount (taka)"><br><br>
+            <input name="amount" id="donated-amount" placeholder="Other amounts (taka)"><br><br>
+            <span class="divider"></span>
             <button class="donate-button">Donate now</button>
         </form>
         </section>
+        <section>
+            <div class="donation-heading">
+                <h2>Our Donate Plan</h2>
+                <p id="donation-quote">You can donate to needy people for various purposes like Education, Food or for their Shelter. You can choose any plan from below to support needy people.</p>
+            </div>
+            <div class="flex-container">
+                <div class="flex-box-plan background-food">
+                    <img class="icon-align" src="icons/food.png" alt="food icon">
+                    <h3 class="donation-head">Food for a family</h3>
+                    <p class="p-text-align">You can donate to needy people for various purposes like Education, Food or for their Shelter. You can choose any plan from below to support needy people.</p>
+                </div>
+                <div class="flex-box-plan background-family">
+                    <img class="icon-align" src="icons/shelter.png" alt="shelter icon">
+                    <h3 class="donation-head">Shelter for a family</h3>
+                    <p class="p-text-align">You can donate to needy people for various purposes like Education, Food or for their Shelter. You can choose any plan from below to support needy people.</p>
+                </div>
+                <div class="flex-box-plan background-education">
+                    <img class="icon-align" src="icons/edu.png" alt="education icon">
+                    <h3 class="donation-head">Education for a child</h3>
+                    <p class="p-text-align">You can donate to needy people for various purposes like Education, Food or for their Shelter. You can choose any plan from below to support needy people.</p>
+                </div>
+            </div>
+        </section>
 </body>
+<footer class="footer-adjust">
+    <span class="footer-head">BE HUMBLE</span>
+    <p class="footer-quote">I can do it.</p>
+</footer>
+
 </html>
